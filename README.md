@@ -13,8 +13,7 @@ The code for constructing the dataset is available on GitHub:
 - [NOAA Storm Prediction Center](https://www.spc.noaa.gov/climo/reports/)
 
 ## Dataset Structure
-The dataset is organized into two directories:
-- `202001_202006`: Data from January 2020 to June 2020
+The dataset is organized into the following folder:
 - `202007_202012`: Data from July 2020 to December 2020
 
 Each directory contains the dataset in WebDataset format, following Hugging Face recommendations. Every 10 `.npz` files are aggregated into a single `.tar` file, named sequentially as `i.tar`, where `i` is an integer (e.g., `0001.tar`).
