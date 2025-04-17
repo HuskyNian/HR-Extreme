@@ -35,4 +35,4 @@ To test the predictions of NWP for example, use the script `test_nwp.py` with th
 ```bash
 python test_nwp.py 20200101 20200630
 ```
-
+If you don't have space to save NWP predictions, you can combine make_nwp_predictions.py and test_nwp.py to evaluate NWP predictions online!
