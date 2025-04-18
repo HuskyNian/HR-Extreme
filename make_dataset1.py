@@ -17,7 +17,7 @@ def make_dataset1(BEGIN_DATETIME,END_DATETIME):
     print(f'start {BEGIN_DATETIME} {END_DATETIME}')
 
     dates = pd.date_range(start=BEGIN_DATETIME,end=END_DATETIME,freq='D')
-    '''
+    
     dfs = []
     print('start downloading files from Storm Prediction Center')
     for date in tqdm(dates):
@@ -42,8 +42,8 @@ def make_dataset1(BEGIN_DATETIME,END_DATETIME):
     dfs['datetime'] = pd.to_datetime(dfs['datetime'], format='%Y%m%d%H%M')
     dfs['lon'] = dfs['lon'] + 360
     dfs = dfs.reset_index(drop=True)
-    '''
-    #dfs.to_csv('index_files/df1_mid.csv',index=False)
+    
+    dfs.to_csv('index_files/df1_mid.csv',index=False)
     dfs = pd.read_csv('index_files/df1_mid.csv',parse_dates=['datetime'])
     ## start doing feature engineering, get ready for later steps
     old = dfs
