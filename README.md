@@ -10,6 +10,7 @@ HR-Extreme is a dataset containing high-resolution feature maps of physical vari
 ## Index File Access
 The code for constructing the dataset is available on GitHub:
 - [NOAA Storm Event Database](https://www.ncdc.noaa.gov/stormevents/ftp.jsp)
+You may click HTTP access, and choose a file that starts with "StormEvents_details" and select a year, for example, for year 2020 you may download a file starts with "StormEvents_details-ftp_v1.0_d2020". 
 - [NOAA Storm Prediction Center](https://www.spc.noaa.gov/climo/reports/)
 
 ## Dataset Structure
