@@ -1,7 +1,7 @@
 # HR-Extreme Dataset (ICLR 2025)
 
 ## Overview
-HR-Extreme is a dataset containing high-resolution feature maps of physical variables for evaluating the performance of cutting-edge models on extreme weather prediction. This dataset focuses on 17 types of extreme weather events spanning the year 2020, based on HRRR data. The dataset is designed to support researchers in weather forecasting, ranging from physical methods to deep learning techniques. [Full paper link]()
+HR-Extreme is a dataset containing high-resolution feature maps of physical variables for evaluating the performance of cutting-edge models on extreme weather prediction. This dataset focuses on 17 types of extreme weather events spanning the year 2020, based on HRRR data. The dataset is designed to support researchers in weather forecasting, ranging from physical methods to deep learning techniques. [Full paper link](https://openreview.net/forum?id=5AtlfHYCPa)
 
 ## Dataset Access
 - [HR-Extreme Dataset](https://huggingface.co/datasets/NianRan1/HR-Extreme)
