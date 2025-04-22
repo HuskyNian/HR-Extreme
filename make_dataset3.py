@@ -54,7 +54,7 @@ args = parser.parse_args()
 
 
 def make_dataset3(start_date,end_date):
-    print(f'start {start_datetime} {end_datetime}, dataset3')
+    print(f'start {start_date} {end_date}, dataset3')
     heat_dates,heat_point_numbers = get_extreme_cases(start_date,end_date,season='summer')
     cold_dates,cold_point_numbers = get_extreme_cases(start_date,end_date,season='winter')
 
